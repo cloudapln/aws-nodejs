@@ -8,7 +8,7 @@ var scanComplete = false,
     consumedCapacityUnitsTotal = 0;
 
 var scanParams = {
-	TableName: 'ddb-dev-archive',
+	TableName: 'table_name',
     Select: 'COUNT'
 };
 
